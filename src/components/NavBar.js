@@ -7,21 +7,21 @@ import {Link} from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <Navbar bg="dark" variantfill="pills"  variant="secondary" className="sticky-top nav nav-tabs" id="myTab" role="tablist">
+            <Navbar bg="dark" variantfill="pills"  variant="dark" className="sticky-top nav nav-tabs" >
                 <Container>
                     {/*<Navbar.Brand href="#home">We Care*/}
 
 
                     {/*</Navbar.Brand>*/}
-                    <Nav  variant="white" className="me-auto">
-                        <Nav.Link href="#main">
+                    <Nav  variant="dark" className="nav nav-tabs">
+                        <Nav.Link href="/">
                             <img src={myImage}
                                  className="d-inline-block align-top"
                                  alt=""
                             /></Nav.Link>
-                        <Nav.Link href="#home"><h5 style={{color:"#afb9b9"}}>Home</h5></Nav.Link>
-                        <Nav.Link href="#features"><h5 style={{color:"#afb9b9"}}>Werken Bij</h5></Nav.Link>
-                        <Nav.Link href="#pricing"><h5 style={{color:"#afb9b9"}}>Over Ons</h5></Nav.Link>
+                        <Nav.Link href="/Home"><h5 style={{color:"#afb9b9"}}>Home</h5></Nav.Link>
+                        <Nav.Link href="/"><h5 style={{color:"#afb9b9"}}>Werken Bij</h5></Nav.Link>
+                        <Nav.Link href="/About"><h5 style={{color:"#afb9b9"}}>Over Ons</h5></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

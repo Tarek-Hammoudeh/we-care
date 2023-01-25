@@ -19,13 +19,13 @@ const Footer =()=>{
                 </Nav>
                     <ul className="nav justify-content-end">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Home</a>
+                            <a className="nav-link active" href="/Home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Werken-Bij</a>
+                            <a className="nav-link active" href="/">Werken-Bij</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Over Ons</a>
+                            <a className="nav-link" href="/About">Over Ons</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link " href="#" tabIndex="-1" aria-disabled="true">Contact</a>

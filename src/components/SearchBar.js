@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import {Link} from "react-router-dom";
-import {data} from "../assets/pages/Data";
+import {data} from "../pages/Data";
 import {useState} from "react";
 
 const SearchBar = () => {
