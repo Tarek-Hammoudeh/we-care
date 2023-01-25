@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import ContForm from "./components/contactForm";
+import Footer from "./components/footer";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Header/>
             <SearchBar/>
             <ContForm/>
+            <Footer/>
      </div>
     );
 }

@@ -15,7 +15,7 @@ const SearchBar = () => {
             <h1 style={{
                 marginTop: "5px",
                 marginBottom: "10px"
-            }}> Search or Scroll down to check our vacancies <img src="images/search.png"
+            }}> Zoek of Scroll naar onder voor onze vacatures <img src="images/search.png"
                                                                   className="rounded float-right" style={{
                 width: "250px",
                 height: "260"
