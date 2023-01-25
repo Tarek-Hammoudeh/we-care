@@ -4,17 +4,14 @@ import myImage from './../assets/img/cover3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 
-function UncontrolledExample() {
+const Header=()=> {
     return (
         <Carousel variant="dark">
-
             <Carousel.Item>
-
                 <img
                     className="d-block w-100 "
                     src={Work1}
                     alt="First slide"
-
                 />
                 <Carousel.Caption style={{
                     top:"10%",
@@ -82,4 +79,4 @@ function UncontrolledExample() {
     );
 }
 
-export default UncontrolledExample;
+export default Header;
