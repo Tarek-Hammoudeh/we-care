@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-            <Navbar bg="dark" variant="dark ">
+            <Navbar bg="dark" variant="dark " className="sticky-top">
                 <Container>
                     {/*<Navbar.Brand href="#home">We Care*/}
 

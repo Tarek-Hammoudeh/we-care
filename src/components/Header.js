@@ -1,6 +1,6 @@
-import Work1 from './../assets/img/w1.jpg';
-import work2 from './../assets/img/w2.jpg';
-import myImage from './../assets/img/w3.jpg';
+import Work1 from './../assets/img/cover1.jpg';
+import work2 from './../assets/img/cover2.jpg';
+import myImage from './../assets/img/cover3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 
@@ -17,7 +17,7 @@ function UncontrolledExample() {
 
                 />
                 <Carousel.Caption style={{
-                    top:"40%",
+                    top:"10%",
                     right: "15%",
                  textAlign:'right',
                     maxWidth:" 600px",
@@ -39,17 +39,17 @@ function UncontrolledExample() {
 
                 <Carousel.Caption style={{
                     top:"40%",
-                    right: "15%",
-                    textAlign:'right',
+                    left: "15%",
+                    textAlign:'left',
                     maxWidth:" 600px",
-                    left: 'auto',
+                    right: 'auto',
                     padding:"20px"
                 }}>
                     <h3 style={{
-                        color:"#83B0DB"
+                        color:"black"
                     }}>Where does it come from?</h3>
                     <p style={{
-                        color:"#545454"
+                        color:"white"
                     }}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -69,10 +69,10 @@ function UncontrolledExample() {
                     padding:"20px"
                 }}>
                     <h3 style={{
-                        color:"#98CCFE"
+                        color:"white"
                     }}>What is Lorem Ipsum?</h3>
                     <p style={{
-                        color:"#E4E4E4"
+                        color:"black"
                     }}>
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
