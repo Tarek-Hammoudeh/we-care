@@ -13,13 +13,16 @@ const SearchBar = () => {
                  marginBottom: "opx"
              }}>
             <h1 style={{
+                textAlign: "left",
                 marginTop: "5px",
                 marginBottom: "10px"
-            }}> Zoek of Scroll naar onder voor onze vacatures <img src="images/search.png"
-                                                                  className="rounded float-right" style={{
-                width: "250px",
-                height: "260"
-            }}/></h1>
+            }}> Zoek of Scroll naar onder voor onze vacatures
+                <img src="images/search.png"
+               style={{
+                    textAlign: "right",
+                    width: "250px",
+                    height: "260"
+                }}/></h1>
             <div style={{
                 marginTop: "20px",
                 marginBottom: "20px"

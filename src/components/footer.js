@@ -35,6 +35,17 @@ const Footer =()=>{
                         }}>©  2023 All rights reserved</p>
                         <p>Made with </p>
                     </ul>
+
+    <div className="col-lg-3">
+        <div className="footer-widget widget ">
+            <h4 className="widget-title">Contact:</h4>
+            <div className="contact_info_list" style={{color:"white"}}>
+                <p><span>Adres:</span></p><p>Wecare Street 1522 wa< /p>
+                <p><span>Phone :<p><a href="tel:"> 06666666666</a></p></span></p>
+                <p><span>Email:</span></p><p> <a href="mailto:" >weCare@wecare.com</a></p>
+            </div>
+        </div>
+    </div>
             <br/>
 
 
